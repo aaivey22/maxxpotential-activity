@@ -1,14 +1,43 @@
-#hero1Container {
-    /* background-color: #292b2a; */
-    background-image: url("../images/luis2.jpg");
+.navContainer {
+    background-color: #332323;
+}
+#heroContainer {
+    background-color: #292b2a;
+    margin: 0;
+    background-image: url("../images/walid.jpg");
     width: inherit;
-    height: 300px;
+    height: 350px;
     overflow: hidden;
     background-repeat: no-repeat; /* Do not repeat the image */
-    /* background-size: cover; Resize the background image to cover the entire container */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+
+}
+
+.nav-link {
+    color: whitesmoke;
 }
 
 #logo {
-    width: 75%;
-    height: 75%;
+    width: 100px;
+    height: 40px;
+}
+
+.heroContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style-type: none;
+}
+
+.heroContainer, li {
+    list-style-type: none;
+}
+
+.body, .container, .footer{
+    background-color: #332323;
+
 }
