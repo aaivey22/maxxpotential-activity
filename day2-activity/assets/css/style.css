@@ -1,3 +1,14 @@
 #hero1Container {
-    background-color: #292b2a;
+    /* background-color: #292b2a; */
+    background-image: url("../images/luis2.jpg");
+    width: inherit;
+    height: 300px;
+    overflow: hidden;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    /* background-size: cover; Resize the background image to cover the entire container */
+}
+
+#logo {
+    width: 75%;
+    height: 75%;
 }
