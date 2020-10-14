@@ -1,5 +1,5 @@
 .body, .navContainer, .container, .footer{
-    background-color: #332323;
+    background-color: #251a1a;
 }
 
 /* Navbar */
@@ -18,7 +18,7 @@
     background-image: url("../images/walid.jpg");
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
-    background-position: 50% 45%;
+    background-position: 50% 70%;
     margin: 0;
     width: inherit;
     height: 350px;
@@ -27,6 +27,27 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+
+.nameColor {
+    font-family: 'Montserrat', sans-serif;
+    color: #bd2319;
+    font-size: 45px;
+    /* font-weight: bolder; */
+}
+
+.pipeColor {
+    /* font-weight: bold; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    color: whitesmoke;
+}
+
+.titleColor {
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    font-size: 45px;
+    /* font-weight: ; */
 }
 
 .heroContainer, ul {
