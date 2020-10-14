@@ -1,21 +1,8 @@
-.navContainer {
+.body, .navContainer, .container, .footer{
     background-color: #332323;
 }
-#heroContainer {
-    background-color: #292b2a;
-    margin: 0;
-    background-image: url("../images/walid.jpg");
-    width: inherit;
-    height: 350px;
-    overflow: hidden;
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    position: relative;
 
-}
-
+/* Navbar */
 .nav-link {
     color: whitesmoke;
 }
@@ -25,19 +12,28 @@
     height: 40px;
 }
 
-.heroContent {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    list-style-type: none;
+/* Homepage banner */
+#heroContainer {
+    background-color: #292b2a;
+    background-image: url("../images/walid.jpg");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    background-position: 50% 45%;
+    margin: 0;
+    width: inherit;
+    height: 350px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.heroContainer, ul {
+    padding: 0;
 }
 
 .heroContainer, li {
     list-style-type: none;
-}
-
-.body, .container, .footer{
-    background-color: #332323;
-
+    justify-content: center;
 }
