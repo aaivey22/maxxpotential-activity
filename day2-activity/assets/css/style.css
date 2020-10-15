@@ -2,9 +2,10 @@
     background-color: #251a1a;
 }
 
+
 /* Navbar */
 .nav-link {
-    color: whitesmoke;
+    color: #f2f0ed;
 }
 
 #logo {
@@ -12,13 +13,14 @@
     height: 40px;
 }
 
+
 /* Homepage banner */
 #heroContainer {
     background-color: #292b2a;
     background-image: url("../images/walid.jpg");
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
-    background-position: 50% 70%;
+    background-position: 50% 75%;
     margin: 0;
     width: inherit;
     height: 350px;
@@ -31,30 +33,28 @@
 
 .nameColor {
     font-family: 'Montserrat', sans-serif;
-    color: #bd2319;
-    font-size: 45px;
+    color: #d83226;
+    font-size: 65px;
     /* font-weight: bolder; */
 }
 
 .pipeColor {
     /* font-weight: bold; */
     font-family: 'Roboto', sans-serif;
-    font-size: 45px;
+    font-size: 65px;
     color: whitesmoke;
 }
 
 .titleColor {
     font-family: 'Montserrat', sans-serif;
     color: whitesmoke;
-    font-size: 45px;
+    font-size: 65px;
     /* font-weight: ; */
 }
 
-.heroContainer, ul {
-    padding: 0;
-}
 
-.heroContainer, li {
-    list-style-type: none;
-    justify-content: center;
+/* Portfolio section */
+.myWorks {
+    font-family:'Roboto', sans-serif;
+    color: #f2f0ed;
 }
