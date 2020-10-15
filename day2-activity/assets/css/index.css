@@ -4,10 +4,10 @@
     background-image: url("../images/walid.jpg");
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
-    background-position: 50% 75%;
+    background-position: 50% 80%;
     margin: 0;
     width: inherit;
-    height: 350px;
+    height: 400px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -19,11 +19,9 @@
     font-family: 'Montserrat', sans-serif;
     color: #d83226;
     font-size: 65px;
-    /* font-weight: bolder; */
 }
 
 .pipeColor {
-    /* font-weight: bold; */
     font-family: 'Roboto', sans-serif;
     font-size: 65px;
     color: whitesmoke;
@@ -33,7 +31,10 @@
     font-family: 'Montserrat', sans-serif;
     color: whitesmoke;
     font-size: 65px;
-    /* font-weight: ; */
+}
+
+.card {
+    background-color: #292b2a;
 }
 
 
