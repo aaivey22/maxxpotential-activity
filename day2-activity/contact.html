@@ -56,7 +56,7 @@
             <label for="message">Message:</label>
             <input type="text" id="message" name="message" placeholder="Type your message here."><br>
 
-            <input type="submit" id="submit" value="Submit">
+            <input type="submit" id="submit" value="submit" onclick="myFunction()" />
 
         </fieldset>
     </form>
@@ -70,36 +70,10 @@
 
 
 <script>
-    (function() {
-        var form = document.getElementById('contact');
-        var firstName = document.getElementById('fname');
-        var submit = document.getElementById('submit');
-
-        var submitted = false;
-
-        submit.disabled = true;
-        submit.className = 'disabled';
-
-        addEvent(firstName, 'input', function(e) {
-            var target = e.target || e.srcElement;
-            submit.disabled = submitted || !target.value;
-            submit.className = (!target.value || submitted) ? 'disabled' : 'enabled';
-        });
-
-        addEvent(form, 'submit', function(e) {
-            if (submit.disabled || submitted) {
-                e.preventDefault();
-                return;
-            }
-            submit.disabled = true;
-            submitted = true;
-            submit.className = 'disabled';
-
-            e.preventDefault();
-            alert('First name is ' + firstName.value);
-        });
-
-    });
+    function myFunction() {
+    document.getElementById("contact").submit();
+    console.log("weehoo")
+    }
 </script>
 
 </body>
