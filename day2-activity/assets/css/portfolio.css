@@ -1,5 +1,16 @@
 /* Portfolio section */
-.myWorks {
-    font-family:'Roboto', sans-serif;
-    color: #f2f0ed;
+#heroContainer {
+    background-color: #292b2a;
+    background-image: url("../images/walid.jpg");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    background-position: 50% 75%;
+    margin: 0;
+    width: inherit;
+    height: 380px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
